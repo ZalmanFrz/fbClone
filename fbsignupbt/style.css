@@ -1,0 +1,235 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background: linear-gradient(white, whitesmoke, gray);
+      height: 100vh;
+    }
+    .container-fluid .navrow {
+      background-color: #3f5c9a;
+      display: flex;
+      flex-direction: row;
+    }
+    /* ----------------------------------------------------Row - 1 -------------------------------------------------------------- */
+    /* -------------------------left-box----------------------------------- */
+    .left-box .nav-logo {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      height: 75px;
+    }
+    .left-box .nav-logo .logo {
+      width: 300px;
+      height: 50px;
+    }
+    /* ----------------------right-box------------------------------- */
+    .right-box .nav-items {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      height: 75px;
+      gap: 10px;
+    }
+    .right-box .nav-items h6 {
+      color: white;
+      letter-spacing: 1px;
+    }
+    .container-fluid .right-box .nav-form >input {
+      border: 2px solid whitesmoke;
+      border-radius: 5px;
+    }
+    .container-fluid .right-box .nav-form >button {
+      background-color: #2d5bba;
+      border: 2px solid white;
+      border-radius: 5px;
+      width: 75px;
+      text-align: center;
+      color: white;
+    }
+    /* ---------------------------------------------------------------- */
+/* ------------------------------------Row - 2 ---------------------------------------------------------- */
+
+    .container-fluid .row-b {
+      background: transparent;
+    }
+    .row-b {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .row-b .cr-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .row-b .cl-box >img {
+      width: 300px;
+      height: 400px;
+    }
+    .row-b .cr-box .items {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .right-box .nav-items .nav-form {
+      display: inline-flex;
+      flex-direction: row;
+      gap: 10px;
+    }
+    .container-fluid .right-box .nav-form >input {
+      width: 100px;
+      border: 2px solid whitesmoke;
+      border-radius: 5px;
+    }
+    .row-b .cr-box .items .texts > h2,h6  {
+      width: 300px;
+    }
+    .row-b .cr-box .items .inp-b > input {
+      width: 371px;
+    }
+    .row-b .cr-box .items .selecters >p >a {
+      text-decoration: none;
+      font-size: 10px;
+      letter-spacing: 1px;
+    }
+    .row-b .cr-box .items .selecters {
+      height: 30px;
+      display: flex;
+      gap: 10px;
+    }
+    .row-b .cr-box .items .desclaimer  {
+      max-width: 400px;
+    }
+    .row-b .cr-box .items >button {
+      background-color: #3f5c9a;
+      color: white;
+      border: 3px solid white;
+      border-radius: 10px;
+      width: 50%;
+      height: 35px;
+    }
+    /* ------------------------placeholder-----------------------------------*/
+    ::placeholder {
+      font-size: 14px;
+    }
+    /* ------------------------------------------------------------- */
+
+    .footer {
+      background-color: #3f5c9a;
+      clear: both;
+      position: absolute;
+      width: 100%;
+      height: 25px;
+      text-align: center;
+      color: beige;
+      letter-spacing: 1px;
+      bottom: 0px;
+    }
+    
+
+
+/* -------------------------------------------For small screens------------------------------------------------------ */
+
+    @media only screen and (max-width: 576px) {
+      body {
+      background: linear-gradient(white, whitesmoke, gray);
+      height: 150vh;
+    }
+      .right-box .nav-items h6 {
+        display: none;
+      color: white;
+      letter-spacing: 1px;
+    }
+    .right-box .nav-items {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .container-fluid .right-box .nav-form >input {
+      width: 90px;
+      border: 2px solid whitesmoke;
+      border-radius: 5px;
+    }
+    .left-box .nav-logo .logo {
+      width: 300px;
+      height: 70px;
+    }
+    .row-b {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+            
+    }
+    .row-b .cr-box .items .inp-b > input {
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+    }
+    .row-b .cl-box >img {
+      width: 200px;
+      height: 200px;
+    }
+    .container-fluid .row-b {
+      background: transparent;
+    }
+    .row-b .cr-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .row-b .cl-box {
+      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+    }
+    
+
+    }
+    .container-fluid .right-box .nav-form {
+      display: flex;
+      flex-direction: row ;
+    }
+    .container-fluid .navrow {
+      background-color: #3f5c9a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+    .row-b .cr-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      
+    }
+    .row-b .cl-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40vh;
+
+    
+    }
+    .row-b .cr-box .items .inp-a {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .row-b .cr-box .items .ip-c {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+    
+    
